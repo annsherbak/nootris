@@ -302,6 +302,9 @@ header {
     }
 }
 @media screen and (max-width: 920px){
+    .intro__content {
+        padding: 120px 0 60px 0;
+    }
     .intro__title{
         font-size: 80px;
         line-height: 86px; 
@@ -315,11 +318,14 @@ header {
     .intro__pic {
         top: 80px;
     }
+    .intro__comment {
+        width: 40%;
+    }
 
 }
 @media screen and (max-width: 750px) {
     .intro__pic {
-        width: 60%;
+        width: 65%;
         top:280px;
         right: 0px;
     }
@@ -337,9 +343,6 @@ header {
         line-height: 20px;
         margin-bottom: 30px;
     }
-    .intro__comment {
-        width: 40%;
-    }
     .intro__comment h3 {
         font-size: 26px;
         line-height: 30px;
@@ -349,8 +352,8 @@ header {
         line-height: 16px;
         }
     .intro__pic {
-            top:160px;
-            right: 0px;
+            top:120px;
+            right: -30px;
         }
 }
     @media screen and (max-width: 450px) {
@@ -541,6 +544,7 @@ header {
     }
     .info__benefits-card img {
         margin-bottom: 20px;
+        width: 60%;
     }
     .info__benefits-nootris {
         margin-bottom: 30px;
@@ -551,6 +555,7 @@ header {
     }
     .info__benefits-nootris img {
         margin-bottom: 30px;
+        width: 70%;
     }
     .info__discount p:first-child {
         font-size: 26px;
@@ -574,6 +579,10 @@ header {
     .info__benefits-card {
         margin-bottom: 15px;
     }
+    .info__benefits-card p {
+        font-size: 14px;
+        line-height: 16px;
+    }
     .info__benefits-nootris {
         margin-bottom: 0;
     }
@@ -596,6 +605,13 @@ header {
     }
     .info__discount {
         margin-bottom: 30px;
+    }
+    .info__benefits button {
+        padding: 12px 20px;
+        font-size: 16px;
+        line-height: 18px;
+        color: #000;
+        border: none;
     }
     
     
